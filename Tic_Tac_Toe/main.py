@@ -70,21 +70,22 @@ while True:
     BoardTable()
     Player1()
     BoardTable()
-    if IsDraw():
-        print("Draw")
-        break
     if IsWin():
         BoardTable()
         print("Player 1 is the winner")
         break
-    Player2()
     if IsDraw():
         print("Draw")
         break
+    Player2()
     if IsWin():
         BoardTable()
         print("Player 2 is the winner")
         break
+    if IsDraw():
+        print("Draw")
+        break
+    
     
 
 
